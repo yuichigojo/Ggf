@@ -179,6 +179,7 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.camera\.provider@2\.5-service\.samsung                u:object_r:hal_camera_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.fastcharge@1\.0-service\.samsung                   u:object_r:hal_lineage_fastcharge_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.samsung   u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.keymaster@4\.0-service\.samsung                 u:object_r:hal_keymaster_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@[0-9]\.[0-9]-service\.samsung                         u:object_r:hal_nfc_default_exec:s0
@@ -211,6 +212,7 @@
 /sys/devices/virtual/camera/rear(/.*)?                          u:object_r:sysfs_camera_writable:s0
 /sys/devices/virtual/fingerprint/fingerprint(/.*)?              u:object_r:sysfs_fpc:s0
 /sys/devices/virtual/lcd/panel(/.*)?                            u:object_r:sysfs_lcd_writable:s0
+/sys/devices/virtual/sec/switch(/.*)?                           u:object_r:sysfs_sec_switch:s0
 /sys/devices/virtual/mdnie(/.*)?                            --  u:object_r:sysfs_mdnie_writable:s0
 /sys/devices/virtual/sensors/proximity_sensor(/.*)?             u:object_r:vendor_sysfs_sensors:s0
 /sys/devices/virtual/sensors/ssc_core(/.*)?                     u:object_r:vendor_sysfs_sensors:s0
