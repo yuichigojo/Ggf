@@ -338,8 +338,8 @@
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
     <!-- Volume controls -->
-    <ctl name="WSA_RX0 Digital Volume" value="84" />
-    <ctl name="WSA_RX1 Digital Volume" value="84" />
+    <ctl name="WSA_RX0 Digital Volume" value="93" />
+    <ctl name="WSA_RX1 Digital Volume" value="93" />
     <ctl name="RX_RX0 Digital Volume" value="0" />
     <ctl name="RX_RX1 Digital Volume" value="0" />
     <ctl name="RX_RX2 Digital Volume" value="0" />
