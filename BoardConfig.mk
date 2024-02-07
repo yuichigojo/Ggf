@@ -151,7 +151,7 @@ TARGET_KERNEL_ARCH          := arm64
 TARGET_KERNEL_HEADER_ARCH   := arm64
 TARGET_LINUX_KERNEL_VERSION := 4.14
 TARGET_KERNEL_CONFIG        := m51_defconfig
-BOARD_NAME                  := SRPTD22A004
+BOARD_NAME                  := SRPTD22A005
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
@@ -258,7 +258,7 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     metadata \
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2023-07-01
+VENDOR_SECURITY_PATCH := 2024-01-01
 
 # SEPolicy
 TARGET_SEPOLICY_DIR := msmsteppe

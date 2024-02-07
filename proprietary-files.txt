@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from m51nsxx-user 12 SP1A.210812.016 M515FXXS4DWA3 release-keys
+# All unpinned blobs below are extracted from m51nsxx-user 12 SP1A.210812.016 M515FXXS5DXA1 release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
