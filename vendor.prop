@@ -110,6 +110,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.crypto.volume.options=::v2
 
 # Dalvik
+dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.heapminfree=2m
 dalvik.vm.lockprof.threshold=500
 dalvik.vm.heapmaxfree=8m
