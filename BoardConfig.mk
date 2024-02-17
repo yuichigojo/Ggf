@@ -80,6 +80,9 @@ TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
 
+# Camera
+$(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
+
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
