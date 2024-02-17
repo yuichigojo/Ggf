@@ -80,16 +80,6 @@ TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 TARGET_NO_RPC := true
 
-# Camera
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
-USE_CAMERA_STUB := false
-
-SOONG_CONFIG_NAMESPACES += samsung_sm6150CameraVars
-SOONG_CONFIG_samsung_sm6150CameraVars += \
-    samsung_sm6150_model
-
-SOONG_CONFIG_samsung_sm6150CameraVars_samsung_sm6150_model := $(TARGET_DEVICE)
-
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
