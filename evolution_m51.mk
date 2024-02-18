@@ -26,6 +26,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_MINI_GAPPS := true
 TARGET_BUILD_APERTURE_CAMERA := true
 
+# NFC
+TARGET_HAVE_SEC_NFC := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_m51
 PRODUCT_DEVICE := m51
